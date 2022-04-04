@@ -1,0 +1,81 @@
+.partnersContainer {
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.partnersHeadingContainer {
+  height: max-content;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partnersHeading {
+  font-size: 6rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+  color: var(--secondary-color);
+}
+
+.partnersSubheading {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--tertiary-color);
+}
+
+.partnersLogoContainer {
+  height: 15rem;
+  width: 101rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.partnersLogo {
+  height: 10rem;
+  width: 15rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .partnersContainer {
+    height: max-content;
+    padding-bottom: 10rem;
+  }
+
+  .partnersHeadingContainer {
+    width: 95%;
+  }
+
+  .partnersHeading {
+    font-size: 4rem;
+    letter-spacing: -1px;
+    line-height: 1.15;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .partnersSubheading {
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+  }
+
+  .partnersLogoContainer {
+    height: 15rem;
+    width: 50%;
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+  }
+
+  .partnersLogo {
+    height: 10rem;
+    width: 18rem;
+    margin-bottom: 3rem;
+  }
+}

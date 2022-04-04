@@ -1,0 +1,53 @@
+.contactContainer {
+  height: 50vh;
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactTextContainer {
+  height: max-content;
+  width: 80%;
+}
+
+.contactHeading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: -1px;
+  margin-bottom: 0.5rem;
+}
+
+.contactSubheading {
+  font-size: 1.75rem;
+  color: var(--tertiary-color);
+  margin-bottom: 2rem;
+}
+
+.contactBtn {
+  height: 4rem;
+  width: 15rem;
+  font-size: 1.75rem;
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+  .contactHeading {
+    font-size: 3.5rem;
+    letter-spacing: -1px;
+    margin-bottom: 0.5rem;
+  }
+
+  .contactSubheading {
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 2.5rem;
+  }
+}

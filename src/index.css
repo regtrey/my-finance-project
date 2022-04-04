@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: rgb(4, 194, 0);
+  --secondary-color: rgb(63, 61, 86);
+  --tertiary-color: rgb(139, 139, 154);
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Nunito', sans-serif;
+}

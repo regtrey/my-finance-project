@@ -1,0 +1,100 @@
+header {
+  height: 7.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+.logo {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  letter-spacing: -1.5px;
+  text-decoration: none;
+  margin-top: -6px;
+}
+
+.nav {
+  display: flex;
+  margin-left: 8rem;
+  list-style: none;
+}
+
+.navLinks {
+  margin-top: 2px;
+}
+
+.navLinks:not(:last-of-type) {
+  margin-right: 8rem;
+}
+
+.navLinks:last-of-type {
+  margin-left: 10rem;
+}
+
+.navLink {
+  font-size: 1.75rem;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  color: var(--primary-color);
+}
+
+.signup {
+  height: 3rem;
+  width: 8rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  outline: none;
+  margin-left: 4rem;
+  cursor: pointer;
+}
+
+.signup a {
+  font-size: 1.55rem;
+  color: white;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 400px) {
+  header {
+    height: 7.5rem;
+    min-width: 375px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.115);
+  }
+
+  .logo {
+    font-size: 3rem;
+    letter-spacing: -1px;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .navLinks:not(:last-of-type),
+  .navLink:not(:last-of-type) {
+    display: none;
+  }
+
+  .navLinks:last-of-type {
+    margin-left: 0;
+  }
+
+  .signup {
+    height: 2.75rem;
+    width: 6rem;
+    border-radius: 6px;
+    margin-left: 2rem;
+  }
+}
