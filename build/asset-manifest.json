@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.167e536d.css",
+    "main.js": "/static/js/main.0dacaea3.js",
+    "static/js/787.f64d7916.chunk.js": "/static/js/787.f64d7916.chunk.js",
+    "static/media/hero.svg": "/static/media/hero.d02850ac51239fd191c1a4208aff0bcf.svg",
+    "static/media/teams.svg": "/static/media/teams.95a82016d3ca2c1b749c4ba2a9024473.svg",
+    "static/media/wireframe.svg": "/static/media/wireframe.9923fc594fed070043e0984554c296bb.svg",
+    "static/media/reports.svg": "/static/media/reports.42855aaf5ff325aebe0c514d8348ce3f.svg",
+    "static/media/progress.svg": "/static/media/progress.50b2c873e935268e89c70d3be767132a.svg",
+    "static/media/mastercard.svg": "/static/media/mastercard.5873e7b727ca533fb1580fb9d778bb8e.svg",
+    "static/media/microsoft.svg": "/static/media/microsoft.ddb161724587c05650c66f2789c761aa.svg",
+    "static/media/intel.svg": "/static/media/intel.53322d685e32caab5ecf8187065dd555.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.32e20978a96ff60c1fdc5a8389e532ba.svg",
+    "index.html": "/index.html",
+    "main.167e536d.css.map": "/static/css/main.167e536d.css.map",
+    "main.0dacaea3.js.map": "/static/js/main.0dacaea3.js.map",
+    "787.f64d7916.chunk.js.map": "/static/js/787.f64d7916.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.167e536d.css",
+    "static/js/main.0dacaea3.js"
+  ]
+}
