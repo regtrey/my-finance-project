@@ -17,30 +17,30 @@ const Header = () => {
         </li>
 
         <li className={classes.navLinks}>
-          <NavLink to="/product" className={classes.navLink}>
+          <NavLink to="/" className={classes.navLink}>
             product
           </NavLink>
         </li>
 
         <li className={classes.navLinks}>
-          <NavLink to="/features" className={classes.navLink}>
+          <NavLink to="/" className={classes.navLink}>
             features
           </NavLink>
         </li>
 
         <li className={classes.navLinks}>
-          <NavLink to="/contact" className={classes.navLink}>
+          <NavLink to="/" className={classes.navLink}>
             contact
           </NavLink>
         </li>
 
         <li className={classes.navLinks}>
-          <NavLink to="/login" className={classes.navLink}>
+          <NavLink to="/" className={classes.navLink}>
             login
           </NavLink>
         </li>
         <button className={classes.signup}>
-          <NavLink to="/signup">sign up</NavLink>
+          <NavLink to="/">sign up</NavLink>
         </button>
       </ul>
     </header>
